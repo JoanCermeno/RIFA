@@ -25,11 +25,12 @@ export default defineConfig({
     //     rewrite: (path) => path.replace(/^\/api/, ''),
     //   },
     // },
-    // allowedHosts: [ // Si lo necesitas para desarrollo en red
-    //   'rifa-sypi.onrender.com', // Esto solo tendría sentido si Render redirige a tu dev server, lo cual es raro
-    //   '.onrender.com', // Otra forma, pero insisto, esto es para dev server
-    //   'localhost',
-    //   '127.0.0.1'
-    // ]
+    allowedHosts: [ // Si lo necesitas para desarrollo en red
+      'rifa-sypi.onrender.com', // Esto solo tendría sentido si Render redirige a tu dev server, lo cual es raro
+      '.onrender.com', // Otra forma, pero insisto, esto es para dev server
+      'https://rifa-sypi.onrender.com',
+      'localhost',
+      '127.0.0.1'
+    ]
   }
 })
