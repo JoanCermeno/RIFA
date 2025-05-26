@@ -1,0 +1,9 @@
+
+#bannerPremioPhoto{
+    background-image: url("/premio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+}
